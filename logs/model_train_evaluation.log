@@ -1,0 +1,96 @@
+2026-02-28 00:43:33,932-INFO-Training boshlandi
+2026-02-28 00:46:42,118-ERROR-🔥 Dataset yuklashda kutilmagan xato!
+Traceback (most recent call last):
+  File "/var/folders/28/qwcdyk8x35d4grf02bxmzrf40000gp/T/ipykernel_49457/194541998.py", line 4, in <module>
+    X_train_prep=pd.read_csv("/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/data/preprocessed/X_train_baseline_preprocessed.csv", index=False)
+TypeError: read_csv() got an unexpected keyword argument 'index'
+2026-02-28 00:47:57,689-INFO-✅ Datasetlar yuklandi
+2026-02-28 00:48:17,103-ERROR-🔥 Model training xatosi!
+Traceback (most recent call last):
+  File "/var/folders/28/qwcdyk8x35d4grf02bxmzrf40000gp/T/ipykernel_49457/1758209828.py", line 8, in <module>
+    log_reg.fit(X_train, y_train)
+                ^^^^^^^
+NameError: name 'X_train' is not defined. Did you mean: 'y_train'?
+2026-02-28 00:48:42,111-INFO-✅ Datasetlar yuklandi
+2026-02-28 00:48:44,429-INFO-Model muvaffaqyatli train qilindi
+2026-02-28 03:37:36,259-INFO-Training boshlandi
+2026-02-28 03:37:36,283-INFO-✅ Datasetlar yuklandi
+2026-02-28 03:37:37,165-INFO-Model muvaffaqyatli train qilindi
+2026-02-28 03:37:37,204-ERROR-🔥 Dataset yuklashda kutilmagan xato!
+Traceback (most recent call last):
+  File "/var/folders/28/qwcdyk8x35d4grf02bxmzrf40000gp/T/ipykernel_51338/850330575.py", line 4, in <module>
+    X_train=pd.read_csv("/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/data/improved/X_train_improved_preprocessed.csv")
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/data/improved/X_train_improved_preprocessed.csv'
+2026-02-28 03:39:20,830-INFO-✅ Datasetlar yuklandi
+2026-02-28 03:42:07,751-ERROR-🔥 Model training xatosi!
+Traceback (most recent call last):
+  File "/var/folders/28/qwcdyk8x35d4grf02bxmzrf40000gp/T/ipykernel_51338/1758209828.py", line 8, in <module>
+    log_reg.fit(X_train, y_train)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/sklearn/linear_model/_logistic.py", line 1247, in fit
+    X, y = validate_data(
+           ~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<5 lines>...
+        accept_large_sparse=solver not in ["liblinear", "sag", "saga"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/sklearn/utils/validation.py", line 2971, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/sklearn/utils/validation.py", line 1387, in check_X_y
+    check_consistent_length(X, y)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/sklearn/utils/validation.py", line 473, in check_consistent_length
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Found input variables with inconsistent numbers of samples: [4256, 3641]
+2026-02-28 03:44:35,367-INFO-Training boshlandi
+2026-02-28 03:44:35,392-INFO-✅ Datasetlar yuklandi
+2026-02-28 03:44:35,561-INFO-Model muvaffaqyatli train qilindi
+2026-02-28 03:44:35,604-INFO-✅ Datasetlar yuklandi
+2026-02-28 03:45:17,406-INFO-Training boshlandi
+2026-02-28 03:45:17,446-INFO-✅ Datasetlar yuklandi
+2026-02-28 03:45:17,616-INFO-Model muvaffaqyatli train qilindi
+2026-02-28 03:45:17,664-INFO-✅ Datasetlar yuklandi
+2026-02-28 03:46:14,805-INFO-Training boshlandi
+2026-02-28 03:46:14,831-INFO-✅ Datasetlar yuklandi
+2026-02-28 03:46:15,001-INFO-Model muvaffaqyatli train qilindi
+2026-02-28 03:46:15,085-INFO-✅ Datasetlar yuklandi
+2026-02-28 03:48:03,191-INFO-Training boshlandi
+2026-02-28 03:48:03,217-INFO-✅ Datasetlar yuklandi
+2026-02-28 03:48:03,389-INFO-Model muvaffaqyatli train qilindi
+2026-02-28 03:48:03,435-INFO-✅ Datasetlar yuklandi
+2026-02-28 04:09:12,050-INFO-Model tuning qilindi
+2026-02-28 04:14:15,248-INFO-Model tuning (GridSearch) qilindi
+2026-02-28 04:20:05,031-INFO-Model tuning (GridSearch) qilindi
+2026-02-28 04:23:52,946-INFO-Model tuning (GridSearch) qilindi
+2026-02-28 04:42:27,398-INFO-Eng yaxshi model saqlandi.

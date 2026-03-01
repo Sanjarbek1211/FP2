@@ -1,0 +1,39 @@
+2026-02-28 00:02:42,186-INFO-Loyiha boshlandi
+2026-02-28 00:16:28,708-INFO-Loyiha boshlandi
+2026-02-28 00:16:34,360-ERROR-🔥 Dataset yuklashda kutilmagan xato!
+Traceback (most recent call last):
+  File "/var/folders/28/qwcdyk8x35d4grf02bxmzrf40000gp/T/ipykernel_47933/53322371.py", line 72, in <module>
+    season_df = scrape_epl_season(year)
+  File "/var/folders/28/qwcdyk8x35d4grf02bxmzrf40000gp/T/ipykernel_47933/53322371.py", line 23, in scrape_epl_season
+    resp.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Too many requests. Please respect our robot policy https://w.wiki/4wJS. (dd12474) for url: https://en.wikipedia.org/wiki/2013%E2%80%9314_Premier_League
+2026-02-28 00:17:59,846-ERROR-🔥 Dataset yuklashda kutilmagan xato!
+Traceback (most recent call last):
+  File "/var/folders/28/qwcdyk8x35d4grf02bxmzrf40000gp/T/ipykernel_47933/53322371.py", line 72, in <module>
+    season_df = scrape_epl_season(year)
+  File "/var/folders/28/qwcdyk8x35d4grf02bxmzrf40000gp/T/ipykernel_47933/53322371.py", line 23, in scrape_epl_season
+    resp.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Too many requests. Please respect our robot policy https://w.wiki/4wJS. (dd12474) for url: https://en.wikipedia.org/wiki/2013%E2%80%9314_Premier_League
+2026-02-28 00:21:05,621-ERROR-🔥 Dataset yuklashda kutilmagan xato!
+Traceback (most recent call last):
+  File "/var/folders/28/qwcdyk8x35d4grf02bxmzrf40000gp/T/ipykernel_47933/1971135619.py", line 72, in <module>
+    season_df = scrape_epl_season(year)
+  File "/var/folders/28/qwcdyk8x35d4grf02bxmzrf40000gp/T/ipykernel_47933/1971135619.py", line 23, in scrape_epl_season
+    resp.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Too many requests. Please respect our robot policy https://w.wiki/4wJS. (dd12474) for url: https://en.wikipedia.org/wiki/2013%E2%80%9314_Premier_League
+2026-02-28 00:21:17,089-ERROR-🔥 Dataset yuklashda kutilmagan xato!
+Traceback (most recent call last):
+  File "/var/folders/28/qwcdyk8x35d4grf02bxmzrf40000gp/T/ipykernel_47933/876008035.py", line 78, in <module>
+    logging.info(f"✅ Dataset yuklandi: {df.shape}")
+                                         ^^
+NameError: name 'df' is not defined
+2026-02-28 00:21:48,817-INFO-✅ Dataset yuklandi: (1140, 5)

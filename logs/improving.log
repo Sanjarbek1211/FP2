@@ -1,0 +1,52 @@
+2026-02-28 01:06:55,787-INFO-Improving boshlandi
+2026-02-28 01:07:43,946-ERROR-🔥 Dataset yuklashda kutilmagan xato!
+Traceback (most recent call last):
+  File "/var/folders/28/qwcdyk8x35d4grf02bxmzrf40000gp/T/ipykernel_49815/1639785689.py", line 2, in <module>
+    df = pd.read_csv("/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/data/raw/FR_raw.csv")
+         ^^
+NameError: name 'pd' is not defined. Did you mean: 'id'?
+2026-02-28 01:07:57,392-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 01:48:53,808-INFO-Improving boshlandi
+2026-02-28 01:48:53,840-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 01:52:01,434-INFO-Improving boshlandi
+2026-02-28 01:52:01,452-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 01:52:23,477-INFO-Improving boshlandi
+2026-02-28 01:52:23,493-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 01:53:51,822-INFO-Improving boshlandi
+2026-02-28 01:53:51,842-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 01:54:41,338-INFO-Improving boshlandi
+2026-02-28 01:54:41,358-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 02:11:19,257-INFO-Improving boshlandi
+2026-02-28 02:11:19,272-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 02:11:26,474-INFO-Improving boshlandi
+2026-02-28 02:11:26,503-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 02:11:42,124-INFO-Improving boshlandi
+2026-02-28 02:11:42,152-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 02:12:36,598-INFO-Improving boshlandi
+2026-02-28 02:12:36,623-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 02:27:48,795-INFO-Improving boshlandi
+2026-02-28 02:27:48,819-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 02:30:40,973-INFO-Improving boshlandi
+2026-02-28 02:30:41,004-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 02:31:20,901-INFO-Improving boshlandi
+2026-02-28 02:31:20,917-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 02:40:27,328-INFO-Improving boshlandi
+2026-02-28 02:40:27,348-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 02:40:36,054-INFO-Improving boshlandi
+2026-02-28 02:40:36,068-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 02:40:53,623-INFO-Improving boshlandi
+2026-02-28 02:40:53,943-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 02:42:29,693-INFO-Improving boshlandi
+2026-02-28 02:42:29,708-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 02:48:36,008-INFO-Improving boshlandi
+2026-02-28 02:48:36,029-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 03:23:50,821-INFO-Improving boshlandi
+2026-02-28 03:23:50,896-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 03:24:14,195-INFO-Improving boshlandi
+2026-02-28 03:24:14,482-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 03:24:38,470-INFO-Improving boshlandi
+2026-02-28 03:24:38,485-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 03:33:42,550-INFO-Improved datasetlar saqlandi
+2026-02-28 03:45:36,306-INFO-Improving boshlandi
+2026-02-28 03:45:36,330-INFO-✅ Dataset yuklandi: (5320, 7)
+2026-02-28 03:45:36,509-INFO-Improved datasetlar saqlandi

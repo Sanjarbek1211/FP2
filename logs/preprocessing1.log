@@ -1,0 +1,111 @@
+2026-02-28 00:36:10,351-INFO-Preprocessing boshlandi
+2026-02-28 00:38:45,182-INFO-Preprocessed qilindi
+2026-02-28 00:40:11,615-ERROR- Dataset saqlashda kutilmagan xato!
+Traceback (most recent call last):
+  File "/var/folders/28/qwcdyk8x35d4grf02bxmzrf40000gp/T/ipykernel_49260/3852271795.py", line 2, in <module>
+    X_train_prep.to_csv("/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project5/data/prerpocessed/X_train_baseline_preprocessed.csv", index=False)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/core/generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project5/data/prerpocessed'
+2026-02-28 00:40:22,924-ERROR- Dataset saqlashda kutilmagan xato!
+Traceback (most recent call last):
+  File "/var/folders/28/qwcdyk8x35d4grf02bxmzrf40000gp/T/ipykernel_49260/505337441.py", line 2, in <module>
+    X_train_prep.to_csv("/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/data/prerpocessed/X_train_baseline_preprocessed.csv", index=False)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/core/generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/data/prerpocessed'
+2026-02-28 00:41:18,237-ERROR- Dataset saqlashda kutilmagan xato!
+Traceback (most recent call last):
+  File "/var/folders/28/qwcdyk8x35d4grf02bxmzrf40000gp/T/ipykernel_49260/616444574.py", line 3, in <module>
+    X_test_prep.to_csv("/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/data/prerpocessed/X_test_baseline_preprocessed.csv", index=False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/core/generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/myenv/lib/python3.13/site-packages/pandas/io/common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '/Users/sanjarbekkakhramonov/Desktop/Python course/5-oy/Project/data/prerpocessed'
+2026-02-28 00:42:16,641-INFO-Preprocessed qilingan datalar saqlandi
