@@ -1,4 +1,4 @@
-⚽ Football Match Outcome Prediction
+## ⚽ Football Match Outcome Prediction
 📌 Project Overview
 
 Ushbu loyiha futbol o‘yinlari natijasini (multi-class classification) bashorat qilish uchun yaratilgan.
